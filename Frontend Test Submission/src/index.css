@@ -1,0 +1,64 @@
+/* General reset and base styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9fafb;
+  color: #111827;
+}
+
+.container {
+  max-width: 600px;
+  margin: 80px auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #1f2937;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input[type="text"], input[type="url"] {
+  padding: 10px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border 0.2s;
+}
+
+input:focus {
+  border-color: #3b82f6;
+  outline: none;
+}
+
+button {
+  padding: 10px 14px;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #2563eb;
+}
+
+.redirecting {
+  font-size: 1.2rem;
+  color: #6b7280;
+  margin-top: 2rem;
+}
